@@ -1,5 +1,5 @@
 locals {
-    name_prefix 0 var.env
+    name_prefix = var.env
 
     default_tags = {
         Environment = var.env
