@@ -2,7 +2,7 @@
 ## Estructura de ficheros
 ### provider.tf
 En este fichero se define el proveedor de la nube que utilizaremos y dónde vamos a guardar el estado de nuestra infraestructura.  
-+ Primero definimos el bloque ****provider** y le definimos el proveedor AWS.
++ Primero definimos el bloque **provider** y le definimos el proveedor AWS.
     + Internamente definimos el argumento **region** para definir la región dónde vamos a trabajar.
 + El segundo bloque será el bloque **terraform**.
     + Dentro vamos a definir otro bloque llamado **backend** definido como local para que nuestro terraform state quede almacenado localmente.
